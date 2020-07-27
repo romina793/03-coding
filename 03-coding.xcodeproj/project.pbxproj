@@ -15,6 +15,7 @@
 		8409955324CDDBB100D1B944 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8409955224CDDBB100D1B944 /* Assets.xcassets */; };
 		8409955624CDDBB100D1B944 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8409955424CDDBB100D1B944 /* LaunchScreen.storyboard */; };
 		8409955E24CDDCDF00D1B944 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8409955D24CDDCDF00D1B944 /* ThirdViewController.swift */; };
+		84B10A3924CF68D7004CBDFD /* FontDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B10A3824CF68D7004CBDFD /* FontDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		8409955524CDDBB100D1B944 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8409955724CDDBB100D1B944 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8409955D24CDDCDF00D1B944 /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		84B10A3824CF68D7004CBDFD /* FontDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 				8409954B24CDDBAF00D1B944 /* FirstViewController.swift */,
 				8409954D24CDDBAF00D1B944 /* SecondViewController.swift */,
 				8409955D24CDDCDF00D1B944 /* ThirdViewController.swift */,
+				84B10A3824CF68D7004CBDFD /* FontDetailViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -156,6 +159,7 @@
 				8409954C24CDDBAF00D1B944 /* FirstViewController.swift in Sources */,
 				8409955E24CDDCDF00D1B944 /* ThirdViewController.swift in Sources */,
 				8409954824CDDBAF00D1B944 /* AppDelegate.swift in Sources */,
+				84B10A3924CF68D7004CBDFD /* FontDetailViewController.swift in Sources */,
 				8409954A24CDDBAF00D1B944 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

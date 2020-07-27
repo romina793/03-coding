@@ -10,14 +10,17 @@ import UIKit
 
 class FirstViewController: UIViewController {
     
+//    MARK: OUTLET
     @IBOutlet weak var labelAge: UILabel!
-    
     @IBOutlet weak var sliderAge: UISlider!
     
+
+//    MARK: PROPERTIES
     var userAge = 0
     var userName = ""
     
 
+//    MARK: LIFECYCLE
     override func viewDidLoad() {
         super.viewDidLoad()
         upDateAgeLabel()
@@ -49,6 +52,8 @@ class FirstViewController: UIViewController {
     
 
 }
+
+//    MARK: EXTENSION TEXTFIELD
 extension FirstViewController: UITextFieldDelegate {
     
     func textFieldShouldReturn(_ textField: UITextField) -> Bool{

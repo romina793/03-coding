@@ -11,16 +11,19 @@ import UIKit
 class SecondViewController: UIViewController {
     
     
-    
+//    MARK: OUTLET
     @IBOutlet weak var labelNumber: UILabel!
     @IBOutlet weak var labelGoldNum: UILabel!
     @IBOutlet weak var stepper: UIStepper!
     @IBOutlet weak var textViewResult: UITextView!
     
+//    MARK: PROPERTIES
     var fibonacci: [Int]  = [0, 1]
     var fibuID = 1
     var wantsGoldNum = false
+   
     
+//    MARK: LIFECYCLE
     override func viewDidLoad() {
         super.viewDidLoad()
         upDateLabel(id: Int(stepper.value))
